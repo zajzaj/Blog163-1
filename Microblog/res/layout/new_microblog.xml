@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context="${relativePackage}.${activityClass}" >
+
+     <Button
+         android:id="@+id/reset_btn"
+         style="@style/login_Btn_Font"
+         android:layout_width="fill_parent"
+         android:layout_height="45.0dip"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_marginBottom="63dp"
+         android:gravity="center"
+         android:text="@string/confirm_publish" />
+
+     <EditText
+         android:id="@+id/editText1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="16dp"
+         android:ems="10"
+         android:gravity="top"
+         android:inputType="textMultiLine"
+         android:lines="@integer/micro_blog_line"
+         android:maxLines="@integer/max_microblog_name" >
+
+         <requestFocus />
+     </EditText>
+
+</RelativeLayout>

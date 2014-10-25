@@ -3,5 +3,7 @@
 
     <string name="app_name">Microblog</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="title_activity_new_microblog_acticity">NewMicroblogActicity</string>
+    <string name="title_new_microblog">发表新微博</string>
+    <string name="confirm_publish">确认发表</string>
 </resources>
