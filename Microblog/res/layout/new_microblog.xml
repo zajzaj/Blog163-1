@@ -6,7 +6,7 @@
     tools:context="${relativePackage}.${activityClass}" >
 
      <Button
-         android:id="@+id/reset_btn"
+         android:id="@+id/publish_microblog"
          style="@style/login_Btn_Font"
          android:layout_width="fill_parent"
          android:layout_height="45.0dip"
@@ -14,6 +14,7 @@
          android:layout_alignParentLeft="true"
          android:layout_marginBottom="63dp"
          android:gravity="center"
+         android:background="#ff0079ff"
          android:text="@string/confirm_publish" />
 
      <EditText

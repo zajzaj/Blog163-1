@@ -15,7 +15,7 @@ public final class R {
     }
     public static final class id {
         public static final int editText1=0x7f070001;
-        public static final int reset_btn=0x7f070000;
+        public static final int publish_microblog=0x7f070000;
     }
     public static final class integer {
         public static final int max_microblog_name=0x7f040000;
