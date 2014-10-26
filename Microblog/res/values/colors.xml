@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <color name="bg_all">#ffe1e1e1</color>
+    <color name="list_item_bg_normal">#ffefefef</color>
+    <color name="list_item_border">#FFBFBFBF</color>
+    <color name="grid_item_text_black">#ff3c332e</color>
+
+</resources>

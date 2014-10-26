@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:padding="@dimen/list_item_padding"
+    android:background="@null" >
+    
+    <ImageView
+            android:id="@id/item_img"
+            android:layout_width="@dimen/list_item_img"
+            android:layout_height="@dimen/list_item_img"
+            android:src="@drawable/pet_defalut_avatar" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/list_item_padding"
+        android:layout_marginRight="@dimen/list_item_padding">
+
+        <TextView
+            android:id="@id/message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="@string/cur_temperature"
+            android:textColor="@color/grid_item_text_black"
+            android:textSize="@dimen/title_font_size" />
+
+        <TextView
+            android:id="@id/message_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/message_text"
+            android:singleLine="true"
+            android:text="name" />
+
+        <TextView
+            android:id="@id/message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/message_name"
+            android:layout_below="@id/message_text"
+            android:singleLine="true"
+            android:text="瑞瑞" />
+    </RelativeLayout>
+
+</LinearLayout>

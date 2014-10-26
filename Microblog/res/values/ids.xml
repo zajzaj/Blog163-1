@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="head_layout" type="id" />
+    <item name="back_btn" type="id"/>
+    <item name="fun_btn" type="id"/>
+    <item name="title" type="id"/>
+    <item name="enter_img" type="id"></item>
+    <item name="virtual_currency_layout" type="id"></item>
+    <item name="collective_project_layout" type="id"></item>
+    <item name="invested_project_layout" type="id"></item>
+    <item name="modify_info_layout" type="id"></item>
+    <item name="my_project_layout" type="id"></item>
+    <item name="trolley_layout" type="id"></item>
+
+</resources>

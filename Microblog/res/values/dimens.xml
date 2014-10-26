@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="default_padding">5.0dip</dimen>
+    <dimen name="title_font_size">20.0sp</dimen>
+    <dimen name="home_tab_font_size">14.0sp</dimen>
+    <dimen name="title_padding">0.0dip</dimen>
+    <dimen name="title_btn_width">60.0dip</dimen>
+    <dimen name="title_btn_height">40.0dip</dimen>
+    <dimen name="list_item_padding">10.0dip</dimen>
+    <dimen name="list_item_height">60.0dip</dimen>
+    <dimen name="border">0.5dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>
